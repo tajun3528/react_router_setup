@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router";
+import Logo from "./Logo";
 
 const navItems = [
   { to: "/", label: "Home", end: true },
@@ -10,12 +11,7 @@ const navItems = [
 export default function Navbar() {
   return (
     <header className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-      <Link to="/" className="text-3xl font-bold tracking-tight">
-        <span className="text-orange-500">E</span>
-        <span className="text-green-600">pixe</span>
-        <span className="text-slate-800">lab</span>
-      </Link>
-
+      <Logo />
       <nav className="hidden gap-10 text-sm md:flex">
         {navItems.map((item) => (
           <NavLink

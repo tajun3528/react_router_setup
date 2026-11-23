@@ -7,4 +7,4 @@ export default function Logo({ className = "text-3xl" }: { className?: string })
       <span className="text-slate-800">lab</span>
     </Link>
   );
-}d
+}
