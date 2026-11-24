@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function MainLayout() {
   return (
-    <div className="mx-auto w-full max-w-[1140px] px-6">
+    <div className="mx-auto w-full max-w-285 px-6">
       <Navbar />
       <main>
         <Outlet />
