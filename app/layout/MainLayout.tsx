@@ -4,9 +4,11 @@ import Footer from "../components/Footer";
 
 export default function MainLayout() {
   return (
-    <div className="min-h-screen bg-white text-[#0f1b3d]">
+    <div className="mx-auto w-full max-w-[1140px] px-6">
       <Navbar />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );
