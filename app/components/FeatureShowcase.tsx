@@ -1,6 +1,6 @@
 export default function FeatureShowcase() {
   return (
-    <section className="mx-auto grid max-w-5xl items-stretch gap-10 px-6 py-16 md:grid-cols-[1fr_1.5fr]">
+    <section className="container-x grid items-stretch gap-10  py-16 md:grid-cols-[1fr_1.5fr]">
       <div className="flex flex-col justify-between gap-10">
         <div>
           <h3 className="text-sm font-bold text-indigo-900">

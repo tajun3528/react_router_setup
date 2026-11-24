@@ -3,7 +3,7 @@ import RatingCard from "./RatingCard";
 
 export default function Hero() {
   return (
-    <section className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-10 md:grid-cols-2">
+    <section className="container-x grid items-center gap-10  py-10 md:grid-cols-2">
       {/* Left: text */}
       <div>
         <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">

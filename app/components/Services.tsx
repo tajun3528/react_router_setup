@@ -12,7 +12,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-16">
+    <section className="container-x  py-16">
       <p className="text-center text-[10px] uppercase tracking-[0.3em] text-gray-500">
         Service
       </p>
