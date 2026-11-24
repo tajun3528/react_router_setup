@@ -31,7 +31,7 @@ export default function Hero() {
       <div className="relative mx-auto aspect-square w-full max-w-md">
         <div className="absolute inset-0 overflow-hidden rounded-full bg-gray-50 shadow-[0_20px_60px_rgba(0,0,0,0.12)]">
           <img
-            src="/hero.png"
+            src="/hero.jpg"
             alt="Smiling man using a phone"
             className="h-full w-full object-cover"
           />
